@@ -166,7 +166,7 @@ var set_espacio_info = [
 ["Aurora", "Infections of a Different Kind (Step 1)"]
 ]
 var set_espacio_contenido = [
-"https://raw.githubusercontent.com/LautaroCecchini/FabFourAlbums/main/external-content/Titanic_Rising.html?token=GHSAT0AAAAAACNN3TVXGQBKMEIVGTXSHN34ZNVPURQ",
+"https://fabfouralbums.netlify.app/external-content/Titanic_Rising.html",
 "https://raw.githubusercontent.com/LautaroCecchini/FabFourAlbums/main/external-content/Floating_Into_The_Night.html?token=GHSAT0AAAAAACNN3TVWWV6LL5DEWEW3NTY4ZNVPTUA",
 "https://raw.githubusercontent.com/LautaroCecchini/FabFourAlbums/main/external-content/Hounds_of_Love.html?token=GHSAT0AAAAAACNN3TVX5VF7B6MJ73MHWJNWZNVLE4Q",
 "https://raw.githubusercontent.com/LautaroCecchini/FabFourAlbums/main/external-content/Infections_of_a_Different_Kind.html?token=GHSAT0AAAAAACNN3TVWWA4QDDY2V7I6VOMOZNVLE5A"
