@@ -183,6 +183,9 @@ var set_italian_shoes_info = [
 /* */
 
 function activar(boton) {
+	var contenedor = document.getElementById("contenido");
+	contenedor.innerHTML = " ";
+	
 	var category = boton.getAttribute("id");
 	var placeholders = document.getElementsByClassName("placeholder");
 	var descripcion = document. getElementById("descripcion");
