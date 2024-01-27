@@ -1,0 +1,108 @@
+body {
+	color: white;
+	background-color: brown;
+	font-family: helvetica, sans-serif;
+}
+
+h1, h2, #descripcion {
+	text-align: center;
+}
+
+p {
+	margin: 0;
+}
+
+#nav {
+	max-width: 1100px;
+	display: block;
+	margin: auto;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+li {
+	display: inline;
+	margin: auto;
+	cursor: pointer;
+	padding: 5px 40px;
+	user-select: none;
+}
+
+li:hover {
+	background-color: white;
+	color: black;
+}
+
+.placeholder {
+	width: 200px;
+	height: 200px;
+}
+
+#marcos {
+	display: flex;
+	gap: 50px;
+	justify-content : center;
+	margin-top: 70px;
+}
+
+.marco {
+	display: grid;
+}
+
+.portada {
+	width: 192px;
+	height: 193px;
+	margin-left: 4px;
+	margin-top: 3px;
+}
+
+.info {
+	width: 192px;
+	height: 193px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin-left: 4px;
+	margin-top: 3px;
+	font-size: 30px;
+	cursor: pointer;
+	background-color: transparent;
+	color: transparent;
+}
+
+.info:hover {
+	background-color: hsl(20, 20%, 80%, .6);
+	color: white;
+}
+
+.artista {
+	font-variant: small-caps;
+	margin: 10px auto;
+}
+
+.titulo {
+	font-style: italic;
+}
+
+.capa1, .capa2, .capa3 {
+	grid-column: 1;
+	grid-row: 1;
+}
+
+.capa2 {
+	z-index: 3;
+}
+
+.capa3 {
+	z-index: 2;
+}
+
+
+#descripcion {
+	margin-top: 20px;
+}
