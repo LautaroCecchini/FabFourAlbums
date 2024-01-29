@@ -167,9 +167,9 @@ var set_espacio_info = [
 ]
 var set_espacio_contenido = [
 "external-content/Titanic_Rising.html",
-"https://fabfouralbums.netlify.app/external-content/Floating_Into_The_Night.html",
-"https://fabfouralbums.netlify.app/external-content/Hounds_of_Love.html",
-"https://fabfouralbums.netlify.app/external-content/Infections_of_a_Different_Kind.html"
+"external-content/Floating_Into_The_Night.html",
+"external-content/Hounds_of_Love.html",
+"external-content/Infections_of_a_Different_Kind.html"
 ]
 
 var set_italian_shoes_portadas = ["images/covers/Tranquility Base Hotel & Casino.gif", "images/covers/Daddy's Home.gif", "images/covers/Parte De La Religión.gif", "images/covers/Blossom Dearie.gif"]
