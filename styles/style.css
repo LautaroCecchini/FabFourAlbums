@@ -110,7 +110,7 @@ li:hover {
 .album-content {
 	border: 4px solid hsl(45, 50%, 55%);
 	border-radius: 40px;
-	background-color: rgba(0, 0, 0, .2);
+	background-color: hsl(0, 80%, 20%, .4);
 	margin: 30px auto;
 	padding: 20px 20px;
 	width: 45%;
