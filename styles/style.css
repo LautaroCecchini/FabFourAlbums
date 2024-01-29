@@ -26,6 +26,7 @@ ul {
 
 li {
 	display: inline;
+	text-align: center;
 	margin: auto;
 	cursor: pointer;
 	padding: 5px 40px;
