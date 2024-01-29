@@ -106,3 +106,30 @@ li:hover {
 #descripcion {
 	margin-top: 20px;
 }
+
+.album-content {
+	border: 5px solid black;
+	border-radius: 40px;
+	background-color: hsl(150, 80%, 25%, .8);
+	margin: 30px auto;
+	padding: 20px 0;
+	width: 70%;
+}
+
+.album-content * {
+	margin: 0;
+}
+
+.album-content h2 {
+	margin-bottom: 10px;
+}
+
+.album-content h3 {
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.album-content p {
+	text-align: center;
+}
