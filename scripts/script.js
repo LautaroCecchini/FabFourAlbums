@@ -166,7 +166,7 @@ var set_espacio_info = [
 ["Aurora", "Infections of a Different Kind (Step 1)"]
 ]
 var set_espacio_contenido = [
-"https://fabfouralbums.netlify.app/external-content/Titanic_Rising.html",
+"external-content/Titanic_Rising.html",
 "https://fabfouralbums.netlify.app/external-content/Floating_Into_The_Night.html",
 "https://fabfouralbums.netlify.app/external-content/Hounds_of_Love.html",
 "https://fabfouralbums.netlify.app/external-content/Infections_of_a_Different_Kind.html"
