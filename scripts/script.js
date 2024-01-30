@@ -59,9 +59,16 @@ function insertarPortadas(set_chosen) {
 		
 		/*Las siguientes líneas se encargan de la animación de fade-in*/
 		
-		setTimeout(function() {	/*Función para retrasar el efecto por 10 milisegundos para evitar comportamiento no deseado*/
-			imagen.classList.add("fade-in-active"); /*La lista de clases de un elemento es un objeto llamado classList*/
+		(function(imagen) { /*Esto que acabo de abrir se llama Immediately Invoked Function Expression (IIFE) y sirve para ejecutar una función
+			justo después de declararla. Estoy encerrando la función setTimeout en una IIFE para ejecutar la aplicación de la clase a cada
+			valor de "imagen" dentro del loop, sin que se genere comportamiento no deseado causado porque función setTimeout está dentro de
+			un bucle for. Sin este IIFE, el efecto deseado solamente se aplica al último elemento llamado por el bucle.*/
+			
+			setTimeout(function() {	/*Función para retrasar el efecto por 10 milisegundos para evitar comportamiento no deseado*/
+				imagen.classList.add("fade-in-active"); /*La lista de clases de un elemento es un objeto llamado classList*/
 		}, 10);
+		})(imagen); /*Con esta línea le paso el parámetro "imagen" a tooooda esta función anónima que acabo de definir. Es una resolución complicada,
+	    		   pero no tengo ganas de pensarlo de otra forma (la idea fue de Chat GPT)*/
     }
 }
 
