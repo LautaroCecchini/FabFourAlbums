@@ -175,6 +175,7 @@ li:hover {
 .album-content p {
 	text-align: left;
 	margin-bottom: 10px;
+	font-size: 17px;
 }
 
 .fade-in-active {
