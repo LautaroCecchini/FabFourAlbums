@@ -154,8 +154,8 @@ li:hover {
 	max-width: 700px;
 	min-width: 500px;
 	opacity: 0;
-	-webkit-transition: .5s;
-	transition: .5s;
+	-webkit-transition: 1s;
+	transition: 1s;
 }
 
 .album-content * {
