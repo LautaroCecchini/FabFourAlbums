@@ -145,6 +145,7 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 				if (this.readyState == 4 && this.status == 200) {
 					var contenedor = document.getElementById("contenido");
 					contenedor.innerHTML = this.responseText;
+					contenedor.setAttribute("data-inserted", false);
 					var contenido = contenedor.querySelector("div");
 
 					if(contenedor.getAttribute("data-inserted") == false) { //Si el contenedor tiene el atributo "data-inserted" en false...
