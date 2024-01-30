@@ -47,7 +47,7 @@ usando esta como referencia.*/
 function insertarPortadas(set_chosen) {
     var marcos = document.getElementsByClassName("marco");
     var contenedor = document.getElementById("contenido");
-    if (contenedor.getAttribute("data-inserted") == true) { /*Este bloque if impide problemas con las animaciones. Si se han insertado datos, devuelve el
+    if (contenedor.getAttribute("data-inserted") === "true") { /*Este bloque if impide problemas con las animaciones. Si se han insertado datos, devuelve el
     valor del atributo de la div a false; si no, no hace nada.*/
 	    contenedor.setAttribute("data-inserted", false);
     } else {
@@ -147,7 +147,7 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 					contenedor.innerHTML = this.responseText;
 					var contenido = contenedor.querySelector("div");
 
-					if(!contenedor.hasAttribute("data-inserted") || contenedor.getAttribute("data-inserted") == false) { //Si el contenedor tiene el atributo "data-inserted" en false...
+					if(!contenedor.hasAttribute("data-inserted") || contenedor.getAttribute("data-inserted") === "false") { //Si el contenedor tiene el atributo "data-inserted" en false...
 						setTimeout(function() {
 							contenido.classList.add("fade-in-active");
 						}, 10);
