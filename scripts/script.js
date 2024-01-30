@@ -138,11 +138,11 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 					var contenedor = document.getElementById("contenido");
 					contenedor.innerHTML = this.responseText;
 					var contenido = contenedor.querySelector("div");
-
-					setTimeout(function() {
-						contenido.classList.add("fade-in-active");
-					}, 10);
 				}
+
+				setTimeout(function() {
+					contenido.classList.add("fade-in-active");
+				}, 10);
 			};
 			
 			request.open("GET", set_actual[i]);
