@@ -48,10 +48,11 @@ function insertarPortadas(set_chosen) {
     var marcos = document.getElementsByClassName("marco");
     var contenedor = document.getElementById("contenido");
     if (contenedor.getAttribute("data-inserted") == true) { /*Este bloque if impide problemas con las animaciones. Si se han insertado datos, devuelve el
-    valor del atributo de la div a false; si no, el bucle continúa*/
+    valor del atributo de la div a false; si no, no hace nada.*/
 	    contenedor.setAttribute("data-inserted", false);
     } else {
-	    continue;
+	    //hacer nada
+    }
 
     for (var i = 0; i < marcos.length; i++) {
         var marco = marcos[i];
