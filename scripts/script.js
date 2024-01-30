@@ -138,9 +138,16 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 					var contenedor = document.getElementById("contenido");
 					contenedor.innerHTML = this.responseText;
 					var contenido = contenedor.querySelector("div");
-					setTimeout(function() {
-						contenido.classList.add("fade-in-active");
-					}, 10);
+
+					if(!contenedor.hasAttribute("data-inserted")) { //Si el contenedor no tiene el atributo "data-inserted"...
+						setTimeout(function() {
+							contenido.classList.add("fade-in-active");
+						}, 10);
+
+						contenedor.setAttribute("data-inserted", true); //... hacer animación y crear el atributo "data-inserted".
+					} else {
+						contenido.classList.add("fade-in-active"); //Si no, añadir la clase sin delay (y por lo tanto sin animación)
+					}
 				}
 			};
 			
