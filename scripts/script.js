@@ -76,6 +76,8 @@ function insertarPortadas(set_chosen) {
 bucle for que itera sobre cada uno de los marcos. De esta forma, se ejecuta cuatro veces y le da a cada marco su portada
 correspondiente. ¡Fascinante! Voy a dejar el proceso registrado, ya que esto son como mis apuntes.*/
 
+/*¡Éxito! Ahora que pude añadir efecto de transición a las imágenes, no debería costarme demasiado hacerlo con el contenido*/
+
 function insertarInfo(set_chosen) {
 	var marcos = document.getElementsByClassName("marco");
 	infos.length = 0; /*Reinicia el array a 0 cada vez que clickeo una categoría*/
