@@ -91,10 +91,6 @@ li:hover {
 	transition: .5s;
 }
 
-.fade-in-active {
-	opacity: 1; /*Cuando se le agregue esta clase a la portada tras insertarla, su opacidad cambiará*/
-}
-
 .info {
 	width: 192px;
 	height: 193px;
@@ -178,6 +174,11 @@ li:hover {
 
 .album-content p {
 	text-align: center;
+}
+
+.fade-in-active {
+	opacity: 1; /*Cuando se le agregue esta clase a los elementos tras insertarlos, su opacidad cambiará. Está escrita aquí
+	al final para que tenga más alto orden de prioridad que las definiciones de opacidad de los elementos que va a afectar.*/
 }
 
 /* */
