@@ -72,6 +72,7 @@ li:hover {
 	justify-content: space-evenly;
 	margin: 70px auto;
 	max-width: 1100px;
+	user-select: none;
 }
 
 .marco {
