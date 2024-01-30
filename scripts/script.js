@@ -56,6 +56,12 @@ function insertarPortadas(set_chosen) {
         imagen.setAttribute("src", set_chosen[i]);
 
         marco.insertBefore(imagen, pie);
+		
+		/*Las siguientes líneas se encargan de la animación de fade-in*/
+		
+		setTimeout(function() {	/*Función para retrasar el efecto por 10 milisegundos para evitar comportamiento no deseado*/
+			imagen.classList.add("fade-in-active"); /*La lista de clases de un elemento es un objeto llamado classList*/
+		} 10);
     }
 }
 
