@@ -99,6 +99,8 @@ li:hover {
 	cursor: pointer;
 	background-color: transparent;
 	color: transparent;
+	-webkit-transition: .3s;
+	transition: .3s;
 }
 
 .info:hover {
