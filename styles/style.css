@@ -173,7 +173,8 @@ li:hover {
 }
 
 .album-content p {
-	text-align: center;
+	text-align: left;
+	margin-bottom: 10px;
 }
 
 .fade-in-active {
