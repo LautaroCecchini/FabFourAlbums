@@ -137,8 +137,9 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 				if (this.readyState == 4 && this.status == 200) {
 					var contenedor = document.getElementById("contenido");
 					var contenido = this.responseText;
+					var cartucho = contenido.getElementsByTagName(div)[0];
 					contenedor.innerHTML = contenido;
-					contenido.classList.add("fade-in-active");
+					cartucho.classList.add("fade-in-active");
 				}
 			};
 			
