@@ -46,7 +46,12 @@ usando esta como referencia.*/
 
 function insertarPortadas(set_chosen) {
     var marcos = document.getElementsByClassName("marco");
-    document.getElementById("contenido").setAttribute("data-inserted", false); //Acá estoy reiniciando el atributo "data-inserted" de #contenido a false para que no me dé errores con las animaciones.
+    var contenedor = document.getElementById("contenido");
+    if (contenedor.getAttribute("data-inserted") == true) { /*Este bloque if impide problemas con las animaciones. Si se han insertado datos, devuelve el
+    valor del atributo de la div a false; si no, el bucle continúa*/
+	    contenedor.setAttribute("data-inserted", false);
+    } else {
+	    continue;
 
     for (var i = 0; i < marcos.length; i++) {
         var marco = marcos[i];
@@ -141,7 +146,7 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 					contenedor.innerHTML = this.responseText;
 					var contenido = contenedor.querySelector("div");
 
-					if(!contenedor.hasAttribute("data-inserted")) { //Si el contenedor no tiene el atributo "data-inserted"...
+					if(contenedor.getAttribute("data-inserted") == false) { //Si el contenedor tiene el atributo "data-inserted" en false...
 						setTimeout(function() {
 							contenido.classList.add("fade-in-active");
 						}, 10);
