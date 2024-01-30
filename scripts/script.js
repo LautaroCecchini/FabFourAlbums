@@ -46,6 +46,7 @@ usando esta como referencia.*/
 
 function insertarPortadas(set_chosen) {
     var marcos = document.getElementsByClassName("marco");
+    document.getElementById("contenido").setAttribute("data-inserted", false); //Acá estoy reiniciando el atributo "data-inserted" de #contenido a false para que no me dé errores con las animaciones.
 
     for (var i = 0; i < marcos.length; i++) {
         var marco = marcos[i];
@@ -70,6 +71,7 @@ function insertarPortadas(set_chosen) {
 		})(imagen); /*Con esta línea le paso el parámetro "imagen" a tooooda esta función anónima que acabo de definir. Es una resolución complicada,
 	    		   pero no tengo ganas de pensarlo de otra forma (la idea fue de Chat GPT)*/
     }
+	
 }
 
 /*Función hecha con la ayuda de ChatGPT. Según la entiendo, es la misma función que definí arriba, sólo que dentro de un
