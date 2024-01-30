@@ -227,6 +227,7 @@ function activar(boton) {
 	if (category == "shoegaze") {
 		insertarPortadas(set_shoegaze_portadas);
 		insertarInfo(set_shoegaze_info);
+		prepararContenido(set_shoegaze_contenido);
 	}
 	
 	else if (category == "madera") {
