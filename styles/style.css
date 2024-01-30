@@ -4,7 +4,7 @@
 }
 
 body {
-	color: white;
+	color: hsl(0, 10%, 90%);
 	background: brown url(/images/design/background-1.gif);
 	font-family: helvetica, sans-serif;
 	margin: 0;
