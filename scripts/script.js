@@ -197,7 +197,7 @@ var set_madera_info = [
 ["Ichiko Aoba", "0"], 
 ["Luis A. Spinetta", "Kamikaze"]
 ]
-var set_madera_contenido [
+var set_madera_contenido = [
 "external-content/The_Car.html",
 "external-content/Five_Leaves_Left.html",
 "external-content/0.html",
