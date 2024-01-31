@@ -198,5 +198,8 @@ footer p {
 	text-align: center;
 	font-style: italic;
 	color: lightgray;
+}
+
+footer div {
 	margin-bottom: 20px;
 }
