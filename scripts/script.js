@@ -218,18 +218,19 @@ var set_espacio_contenido = [
 "external-content/Infections_of_a_Different_Kind.html"
 ]
 
-var set_italian_shoes_portadas = ["images/covers/Tranquility Base Hotel & Casino.gif", "images/covers/Daddy's Home.gif", "images/covers/Parte De La Religión.gif", "images/covers/Blossom Dearie.gif"]
+var set_italian_shoes_portadas = ["images/covers/Daddy's Home.gif", "images/covers/Tranquility Base Hotel & Casino.gif", "images/covers/Blossom Dearie.gif", "images/covers/Parte De La Religión.gif"]
 var set_italian_shoes_info = [
-["Arctic Monkeys", "Tranquility Base Hotel & Casino"],
 ["St. Vincent", "Daddy's Home"],
-["Charly García", "Parte De La Religión"],
-["Blossom Dearie", "Blossom Dearie"]
+["Arctic Monkeys", "Tranquility Base Hotel & Casino"],
+["Blossom Dearie", "Blossom Dearie"],
+["Charly García", "Parte De La Religión"]
+
 ]
 var set_italian_shoes_contenido = [
-"external-content/Tranquility_Base_Hotel_&_Casino.html",
 "external-content/Daddy's_Home.html",
-"external-content/Parte_De_La_Religión.html",
-"external-content/Blossom_Dearie.html"
+"external-content/Tranquility_Base_Hotel_&_Casino.html",
+"external-content/Blossom_Dearie.html",
+"external-content/Parte_De_La_Religión.html"
 ]
 
 /* */
