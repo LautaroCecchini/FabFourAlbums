@@ -183,7 +183,7 @@ var set_shoegaze_info = [
 ["Japanese Breakfast", "Soft Sounds from Another Planet"], 
 ["Alexandra Savior", "The Archer"]
 ]
-var set_shoegaze_contenido [
+var set_shoegaze_contenido = [
 "external-content/So_Tonight_That_I_Might_See.html",
 "external-content/Excursiones.html",
 "external-content/Soft_Sounds_from_Another_Planet.html",
