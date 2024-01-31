@@ -146,11 +146,11 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 					var contenedor = document.getElementById("contenido");
 					contenedor.innerHTML = this.responseText;
 					var contenido = contenedor.querySelector("div");
-					contenedor.removeProperty("height");
 
 					if(!contenedor.hasAttribute("data-inserted") || contenedor.getAttribute("data-inserted") === "false") { //Si el contenedor tiene el atributo "data-inserted" en false...
 						setTimeout(function() {
 							contenido.classList.add("fade-in-active");
+							contenedor.removeAttribute("height");
 						}, 10);
 
 						contenedor.setAttribute("data-inserted", true); //... hacer animación y crear el atributo "data-inserted".
