@@ -4,6 +4,8 @@
 }
 
 body {
+	display: flex;
+	flex-direction: column;
 	color: hsl(0, 10%, 90%);
 	background: brown url(/images/design/background-1.gif);
 	font-family: helvetica, sans-serif;
@@ -16,6 +18,10 @@ h1, h2, #descripcion {
 
 p {
 	margin: 0;
+}
+
+header, main {
+	flex: 1;
 }
 
 header {
@@ -135,11 +141,6 @@ li:hover {
 	z-index: 2;
 }
 
-
-#descripcion {
-	margin-top: 20px;
-}
-
 /* */
 
 /*Estilo del contenido insertado dinámicamente*/
@@ -185,7 +186,12 @@ li:hover {
 
 /* */
 
+footer {
+	flex-shrink: 0;
+}
+	
 footer p {
 	text-align: center;
 	font-style: italic;
+	color: lightgray;
 }
