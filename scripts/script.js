@@ -225,7 +225,7 @@ var set_italian_shoes_info = [
 ["Charly García", "Parte De La Religión"],
 ["Blossom Dearie", "Blossom Dearie"]
 ]
-var set_italian_shoes_contenido [
+var set_italian_shoes_contenido = [
 "external-content/Tranquility_Base_Hotel_&_Casino.html",
 "external-content/Daddy's_Home.html",
 "external-content/Parte_De_La_Religión.html",
