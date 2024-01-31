@@ -184,3 +184,8 @@ li:hover {
 }
 
 /* */
+
+footer p {
+	text-align: center;
+	font-style: italic;
+}
