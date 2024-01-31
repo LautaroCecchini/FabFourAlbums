@@ -183,7 +183,7 @@ var set_shoegaze_info = [
 ["Japanese Breakfast", "Soft Sounds from Another Planet"], 
 ["Alexandra Savior", "The Archer"]
 ]
-var set_shoegaze_contenido = [
+var set_shoegaze_contenido [
 "external-content/So_Tonight_That_I_Might_See.html",
 "external-content/Excursiones.html",
 "external-content/Soft_Sounds_from_Another_Planet.html",
@@ -196,6 +196,12 @@ var set_madera_info = [
 ["Nick Drake", "Five Leaves Left"], 
 ["Ichiko Aoba", "0"], 
 ["Luis A. Spinetta", "Kamikaze"]
+]
+var set_madera_contenido [
+"external-content/The_Car.html",
+"external-content/Five_Leaves_Left.html",
+"external-content/0.html",
+"external-content/Kamikaze.html"
 ]
 
 var set_espacio_portadas = ["images/covers/Titanic Rising.gif", "images/covers/Floating Into The Night.gif", "images/covers/Hounds of Love.gif", "images/covers/Infections of a Different Kind.gif"]
@@ -219,6 +225,12 @@ var set_italian_shoes_info = [
 ["Charly García", "Parte De La Religión"],
 ["Blossom Dearie", "Blossom Dearie"]
 ]
+var set_italian_shoes_contenido [
+"external-content/Tranquility_Base_Hotel_&_Casino.html",
+"external-content/Daddy's_Home.html",
+"external-content/Parte_De_La_Religión.html",
+"external-content/Blossom_Dearie.html"
+]
 
 /* */
 
@@ -239,6 +251,7 @@ function activar(boton) {
 	else if (category == "madera") {
 		insertarPortadas(set_madera_portadas);
 		insertarInfo(set_madera_info);
+		prepararContenido(set_madera_contenido);
 	}
 	
 	else if (category == "espacio") {
@@ -250,6 +263,7 @@ function activar(boton) {
 	else if (category == "italian-shoes") {
 		insertarPortadas(set_italian_shoes_portadas);
 		insertarInfo(set_italian_shoes_info);
+		prepararContenido(set_italian_shoes_contenido);
 	}
 	
 	descripcion.style.display = "none";
