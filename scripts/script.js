@@ -144,7 +144,6 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 			request.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
 					var contenedor = document.getElementById("contenido");
-					contenedor.removeProperty("height");
 					contenedor.innerHTML = this.responseText;
 					var contenido = contenedor.querySelector("div");
 
