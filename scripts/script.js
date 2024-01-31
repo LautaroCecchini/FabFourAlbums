@@ -50,6 +50,7 @@ function insertarPortadas(set_chosen) {
     if (contenedor.getAttribute("data-inserted") === "true") { /*Este bloque if impide problemas con las animaciones. Si se han insertado datos, devuelve el
     valor del atributo de la div a false; si no, no hace nada.*/
 	    contenedor.setAttribute("data-inserted", false);
+	    contenedor.style.height = "500px"; //Devuelve la altura de 500 píxeles al contenedor (porque de lo contrario el pie de la página se vendría para arriba)
     } else {
 	    //hacer nada
     }
@@ -144,7 +145,7 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 			request.onreadystatechange = function() {
 				if (this.readyState == 4 && this.status == 200) {
 					var contenedor = document.getElementById("contenido");
-					contenedor.style.height = "auto";
+					contenedor.style.height = "auto"; //Hace que la altura del contenedor se adapte al contenido y deje de ser de 500 píxeles.
 					contenedor.innerHTML = this.responseText;
 					var contenido = contenedor.querySelector("div");
 
