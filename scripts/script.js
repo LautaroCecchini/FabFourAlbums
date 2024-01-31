@@ -150,7 +150,6 @@ function insertarContenido(album_chosen) { /* Para esta función creé un array 
 					if(!contenedor.hasAttribute("data-inserted") || contenedor.getAttribute("data-inserted") === "false") { //Si el contenedor tiene el atributo "data-inserted" en false...
 						setTimeout(function() {
 							contenido.classList.add("fade-in-active");
-							contenedor.removeAttribute("height");
 						}, 10);
 
 						contenedor.setAttribute("data-inserted", true); //... hacer animación y crear el atributo "data-inserted".
