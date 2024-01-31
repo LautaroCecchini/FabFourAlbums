@@ -141,6 +141,10 @@ li:hover {
 	z-index: 2;
 }
 
+#contenido {
+	height: 500px;
+}
+
 /* */
 
 /*Estilo del contenido insertado dinámicamente*/
